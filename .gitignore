@@ -1,0 +1,8 @@
+venv
+.DS_STORE
+*\node_modules
+*.pyc
+frontend/env_local.var
+frontend/env.var-E
+__pycache__
+env_local.var
