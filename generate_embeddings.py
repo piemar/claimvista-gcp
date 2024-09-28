@@ -4,8 +4,8 @@ from db_config import db_connection_string
 from typing import List, Optional
 from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
 mongo_client = pymongo.MongoClient(db_connection_string)
-db = mongo_client["vehicle_damage2"]
-collection = db["vehicle_damage2"]
+db = mongo_client["vehicle_damage"]
+collection = db["vehicle_damage"]
 
 
 def get_embedding(
